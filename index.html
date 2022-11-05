@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-div">
+        <h1> Query Selectors</h1>
+        <div class="first-container">
+                <div>
+                    <div>
+                        <span> This is first span</span><br><br>
+                        <span> This is second span </span>
+                    </div>
+                    <button id="btnByElement">By Element</button>
+                </div>
+                <div>
+                    <div id="IdDiv"> Text to be changed </div>
+                    <button id="btnById">By Id</button>
+                </div>
+                <div>
+                    <div class="classDiv"> Text to be changed </div>
+                    <button id="btnByClass">By Class</button>
+                </div>
+        </div>
+
+        <div class="second-container">
+            <h2>querySelector()</h2>
+            <p class="classContainer"> Text One</p>
+            <p class="classContainer"> Text Two</p>
+            <p class="classContainer"> Text Three</p>
+            <button id="btnClass"> Same Class</button>
+        </div>
+
+        <div class="third-container">
+            <h2>querySelectorAll()</h2>
+            <p class="sameClass"> Same class text One</p>
+            <p class="sameClass"> Same class text Two</p>
+            <p class="sameClass"> Same class text Three</p>
+            <button id="btnClick"> querySelectorAll</button>
+        </div>
+
+    </div>
+  
+    
+    <script src="script.js"></script>
+</body>
+</html>

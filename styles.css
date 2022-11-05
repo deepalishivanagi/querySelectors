@@ -1,0 +1,38 @@
+
+
+
+.main-div{
+    text-align: center;
+}
+.first-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.first-container div div{
+    height: 200px;
+    width: 200px;
+    border: 0.2px solid black;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #8D9EFF;
+}
+
+button{
+    padding: 8px 14px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FF8FB1;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.second-container, .third-container{
+    padding: 20px;
+    margin: 20px;
+    font-size: 18px;
+}
+
